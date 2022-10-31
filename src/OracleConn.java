@@ -5,6 +5,7 @@ class OracleConn{
         try{
 //step1 load the driver class
             Class.forName("oracle.jdbc.driver.OracleDriver");
+            System.out.println("Second thing");
 
 //step2 create  the connection object
             Connection con=DriverManager.getConnection(
